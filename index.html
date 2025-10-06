@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website Clone</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/e904aceba5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <div class="logo-and-text">
+            <img src="logo-(final).png" class="logo">
+             <p class="logo-text">Functional Genomics</p>
+             <p class="logo-text">Genetic Engineering</p>
+             <p class="logo-text">Plant Molecular Biology</p>
+            </div>
+            <ul id="sidemenu">
+                <li>
+                <a href="#header">Home</a>
+                </li>
+                <li>
+                <a href="#about">About</a>
+                </li>
+                <li>
+                <a href="#services">Services</a>
+                </li>
+                <li>
+                <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                <a href="#contact">Contact</a>
+                </li>
+                 <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+             </nav>
+            <div class="header-text">
+                
+                <h1>Hi! I am <br>Md <span> Nayeem </span>Sadman<br> from Bangladesh</h1>
+                <img src="images/profile.photo.jpg" class="profile-img">
+           
+        </div>
+    </div>
+    </div>
+    <!-----------------------About------------------------------>
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="experiment picture3.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="subtittle"> About Me</h1>
+                        <p class="about-text"> I am Md Nayeem Sadman, a deeply motivated international 
+                            Bachelor's degree holder in Biotechnology from the College of Life Sciences, 
+                            Guizhou University, a prestigious "double first-class" institution in China.
+                             My journey, originating from Bangladesh and into a highly competitive academic 
+                             environment abroad, has instilled in me a unique global perspective and a deep 
+                             commitment to harnessing science and technology to improve healthcare and 
+                             agriculture worldwide. My main goal is to serve as a conduit between pioneering 
+                             laboratory innovations and their real-world applications. <span id="dot">......</span>
+                   <span id="more">  My academic and research interests are focused on the dynamic convergence of agricultural biotechnology 
+and computational biology. I strongly believe in the transformative potential of green biotechnology,
+ especially in the use of cutting-edge technologies such as gene editing to address critical global 
+ challenges like food security and environmental sustainability. This conviction drives my research,
+  where I have explored mechanisms controlling plant architecture, such as in the project, “Overexpression
+   of CsBRC, an F-box gene from Camellia sinensis, enhances plant branching in tobacco and rice.” Building 
+   directly on this experience, I am now deeply engaged in a targeted gene-editing project focused on a 
+   specific F-BOX gene in rice. The successfully edited seeds are currently being cultivated in Hainan for
+    maturation, after which we will conduct detailed phenotypic analysis. Our primary objective is to develop
+     improved rice varieties with enhanced branching, a trait we hypothesize will lead to substantially
+      increased yields and contribute directly to global food security solutions.
+In parallel, I am fascinated by the data-centric nature of modern biology. I am deeply interested in
+ computational biology and the application of artificial intelligence (AI) to integrate and interpret 
+ complex, high-throughput multi-omics (e.g., genomics, proteomics) datasets. I believe that a holistic, 
+ systems-level understanding of biological processes can only be achieved through sophisticated analysis 
+ of such integrated data. This approach is critical for developing next-generation diagnostics and
+  personalized therapies for complex diseases.
+Ultimately, my educational pursuits are inextricably linked to my deep commitment to my native Bangladesh.
+ My long-term goal is to apply the knowledge and skills I have acquired to establish state-of-the-art 
+ agricultural research centers in Bangladesh. These centers will aim to empower local farmers with stable 
+ and high-yielding crop varieties, thereby strengthening the country’s food security and economy. 
+ Furthermore, I want to actively contribute to public health initiatives by developing and implementing
+  technology-driven healthcare solutions.
+Outside the laboratory and lecture hall, I am a passionate advocate for community engagement.
+ My experience as a volunteer with the World Health Organization (WHO) has given me invaluable
+  insight into global public health challenges. My early participation in the Bangladesh Chemistry
+   and Biology Olympiad ignited my passion for scientific inquiry. Today, I channel this passion by 
+   mentoring aspiring life science students and young researchers, as I believe that building a collaborative
+    and knowledge-sharing ecosystem is essential for scientific advancement. My guiding principle in all 
+    endeavors is an insatiable drive to explore the unknown.
+#BeCurious
+</span></p>
+<span id="seeMore">see more</span>
+     <div class="tab-tittle">
+    <p class="tab-links active-link" onclick="opentab('Skill')">Skill</p>
+     <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+  <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+                   </div>
+  <div class="tab-contents active-tab" id="Skill">
+  <ul>
+    <li>
+        <span>Lab Techniques</span><br>Proficient in PCR, gel electrophoresis, and spectrophotometry
+    </li>
+    <li>
+        <span>Bioinformatics</span><br>Experience with DNA sequence analysis and tools like BLAST & NCBI
+    </li>
+    <li>
+        <span>Research & Report Writing</span><br>Skilled in experimental design, data analysis, and scientific documentation
+    </li>
+    <li>
+        <span>Cell Culture & Microscopy</span><br>Hands-on experience with microbial and mammalian cell cultures
+    </li>
+</ul>
+</div>
+
+<div class="tab-contents" id="Experience">
+    <ul>
+        <li>
+            <span>Internship</span><br>Worked at a molecular biology lab focusing on PCR and DNA sequencing
+        </li>
+        <li>
+            <span>Lab Assistant</span><br>Supported cell culture maintenance, microscopy, and data recording
+        </li>
+        <li>
+            <span>Research Collaboration</span><br>Assisted in bioinformatics analysis using tools like BLAST and NCBI
+        </li>
+        <li>
+            <span>Workshop Participation</span><br>Attended hands-on training in gene cloning and protein purification
+        </li>
+    </ul>
+</div>
+
+
+<div class="tab-contents " id="Education">
+    <ul>
+        <li>
+            <span>Undergraduate Studies</span><br>B.Sc. in Biotechnology Guizhou University, China
+        </li>
+        <li>
+            <span>Focus Areas</span><br>Specialised coursework and research concentration in
+             Genetic Engineering, Functional Genomics, Plant Molecular Biology, and Plant Breeding.
+        <li>
+            <span>Project Work</span><br>Enhancing plant architecture through gene overexpression and 
+            characterization of F-box genes in rice.
+        </li>
+        <li>
+            <span>Academic Highlights</span><br>Active participation in seminars and lab training programs
+        </li>
+    </ul>
+</div>
+
+ </div>
+  </div>
+     </div>
+    </div>
+          
+
+    <!---------------------------research & inovation-------------------------->
+<div id="services">
+    <div class="container">
+        <h1 class="subtittle">Research & Innovation</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-microscope"></i>
+                <h2>Lab Experiments</h2>
+                <p>As a dedicated biotechnology engineer, I offer a range of services 
+                    to support scientific research and innovation..
+                      </p>
+                     <a href="more-work1.html?section=molecular">learn more</a>
+            </div>
+             <div>
+               <i class="fa-solid fa-chart-bar"></i>
+                <h2>Bioinformatics & Data Analysis</h2>
+                <p>Offering support in DNA sequence analysis, BLAST searches, and data
+                     visualization to turn complex biological data into clear, actionable 
+                    insights. 
+                      </p>
+                     <a href="more-work1.html?section=bioinformatics">learn more</a>
+            </div>
+            <div>
+                <i class=" fa-solid fa-dna"></i>
+                <h2>Lab Techniques</h2>
+                <p>Skilled in essential molecular biology methods including PCR, 
+                    gel electrophoresis, and spectrophotometry.</p>
+                     <a href="more-work1.html?section=labtechniques">learn more</a>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+<!---------------------------Portfolio---------------------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtittle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="WhatsApp Image 2025-06-29 at 11.58.46 AM.jpeg">
+                <div class="layer">
+                    <h3>Project 1: Enhancing Plant Architecture through Gene Overexpression</h3>
+                    <p>
+                       Focus: Genetic Engineering & Functional Genomics<br>
+                      Details: Successful overexpression of CsBRC, an F-Box 
+                      gene isolated from Camellia sinensis (tea plant), which
+                       resulted in significantly increased plant branching in
+                        model systems (tobacco and rice).
+                    </p>
+                   <a href="#"><i class="fa-solid fa-dna"></i></a>
+
+                </div>
+            </div>
+             <div class="work">
+                <img src="work1.jpeg">
+                 <div class="layer">
+                   <h3>Project 2: Characterization of F-Box Genes in Rice</h3>
+                    <p>Focus: Plant Molecular Biology & Genomics<br>
+                   Details: Investigating the roles and expression
+                    patterns of various F-Box genes in the rice genome 
+                    to understand their impact on key physiological processes</p>
+                
+                  <a href="#"><i class="fa-solid fa-tree"></i></a>
+
+                 </div>
+                
+            </div>
+             <div class="work">
+                <img src="background2.jpeg">
+                 <div class="layer">
+                    <h3>Cell Culture Experiment</h3>
+                    <p>  Maintained and observed mammalian cell lines under controlled conditions. 
+            
+                    </p>
+                   <a href="#"><i class="fa-solid fa-dna"></i></a>
+
+                </div>
+            </div>
+        </div>
+        <a href="more-work.html" class="btn">See more</a>
+    </div>
+</div>
+
+<!--------------------------Contact-------------------------->
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="subtittle"> Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>mdnayeemsadman@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>01302151132</p>
+                        <div class="social-icons">
+                             <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i> </a>
+                             <a href=""><i class="fa-brands fa-instagram"></i> </a>
+                             <a href=""><i class="fa-brands fa-linkedin"></i> </a>
+                             <a href=""><i class="fa-brands fa-twitter-square"></i> </a>
+                             
+                            </div>
+                         <a href="My cv online.pdf" class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                     <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2"> Submit</button>
+                     </form>
+                     <span id="msg"></span>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="copyright">
+                <p>Copyright @ Made With <i class="fa-solid fa-heart"></i> By Sanjida Nahar</p>
+            </div>
+        </div>
+        <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+         
+           }
+
+           for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+           }
+
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right= "0";
+        }
+         function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+    <script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbxZ_qeEF79FkJR02bjPpZgW1iNLpjRElj5GjflsevFnd08A16N6_3d-cqipk4Z47Z9_4Q/exec'
+  const form = document.forms['submit-to-google-sheet']
+   const msg= document.getElementById("msg")
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+            msg.innerHTML=""
+        }, 5000)
+        form.reset()
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+<script>
+  const seeMore = document.getElementById("seeMore");
+  const dots = document.getElementById("dot");
+  const moreText = document.getElementById("more");
+
+  let expanded = false;
+
+  // When clicking "See more"
+  seeMore.addEventListener("click", (event) => {
+    event.stopPropagation(); // Stop the click from bubbling up
+    dots.style.display = "none";
+    moreText.style.display = "inline";
+    seeMore.style.display = "none";
+    expanded = true;
+  });
+
+  // When clicking anywhere else on the document
+  document.addEventListener("click", (event) => {
+    // If expanded and clicked outside the seeMore or the extra text
+    if (
+      expanded &&
+      !moreText.contains(event.target) &&
+      event.target !== seeMore
+    ) {
+      dots.style.display = "inline";
+      moreText.style.display = "none";
+      seeMore.style.display = "inline";
+      expanded = false;
+    }
+  });
+</script>
+
+
+</body>
+
+</html>
+
